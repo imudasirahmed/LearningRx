@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NetworkExampleViewController" customModule="LearningRxSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="erz-sW-5WZ" id="0Zq-Zp-R4c"/>
+                <outlet property="titleLabel" destination="BEQ-Yg-0i9" id="Y6t-qS-B36"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEQ-Yg-0i9">
+                    <rect key="frame" x="0.0" y="36" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="erz-sW-5WZ">
+                    <rect key="frame" x="0.0" y="73" width="375" height="594"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="erz-sW-5WZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DUJ-VM-66M"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BEQ-Yg-0i9" secondAttribute="trailing" id="IRv-QX-adg"/>
+                <constraint firstItem="BEQ-Yg-0i9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="LNj-es-3Su"/>
+                <constraint firstItem="BEQ-Yg-0i9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PNZ-TM-pTa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="erz-sW-5WZ" secondAttribute="bottom" id="WbH-c1-t2C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="erz-sW-5WZ" secondAttribute="trailing" id="ZK9-jq-9ND"/>
+                <constraint firstItem="erz-sW-5WZ" firstAttribute="top" secondItem="BEQ-Yg-0i9" secondAttribute="bottom" constant="16" id="b31-Bo-X17"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

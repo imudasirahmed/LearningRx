@@ -1,0 +1,6 @@
+framework module Pods_LearningRx {
+  umbrella header "Pods-LearningRx-umbrella.h"
+
+  export *
+  module * { export * }
+}
